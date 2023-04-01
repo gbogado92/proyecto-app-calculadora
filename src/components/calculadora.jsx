@@ -5,11 +5,6 @@ import Resultado from "./Resultado";
 const Calculadora = () => {
   const [suma, setSuma] = useState(5);
 
-  const [numeros, setNumeros] = useState({
-    numero1: 0,
-    numero2: 0,
-  });
-
   return (
     <div>
       <NumberImput name="Número 1" />
